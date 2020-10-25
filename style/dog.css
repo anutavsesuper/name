@@ -1,0 +1,27 @@
+@import "reset.css";
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+img {
+  width: 100%; /* Ширина изображений */
+  height: 100%; /* Высота изображении */
+  object-fit: cover; /* Вписываем фотографию в область */
+}
+
+.dog {
+  position: absolute;
+  width: 600px;
+  height: 557px;
+  margin: 100px;
+  z-index: 1;
+}
